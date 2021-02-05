@@ -13,6 +13,9 @@ const Navigation = () => {
           <Link style={{textDecoration: "none", color: "white", fontSize: "1.5rem", fontWeight: "bold"}} to="/About">About</Link>
         </div>
         <div>
+          <Link style={{textDecoration: "none", color: "white", fontSize: "1.5rem", fontWeight: "bold"}} to="/Projects">Projects</Link>
+        </div>
+        <div>
           <Link style={{textDecoration: "none", color: "white", fontSize: "1.5rem", fontWeight: "bold"}} to="/Contact">Contact</Link>
         </div>
       </div>
