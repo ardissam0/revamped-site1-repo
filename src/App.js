@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Home, About, Contact, Navigation, Projects } from './components';
+import { Home, About, Contact, Navigation } from './components';
 import { Route} from 'react-router-dom';
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
         <Navigation />
         <Route exact path='/' component={Home} />
         <Route path='/About' component={About} />
-        <Route path='/Projects' component={Projects} />
         <Route path='/Contact' component={Contact} />
       </div>
     </div>
